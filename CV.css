@@ -1,0 +1,46 @@
+
+.foto {
+  float: right;
+}
+.name {
+  float: left;
+  margin-left:  20px;
+  margin-right: 20px;
+}
+.left-line {
+  background-color: #99e0eb;
+  float: left;
+  color: #99e0eb;
+  height: 100vh;
+}
+body {
+  max-width: 800px
+}
+a:link {
+  color: #000000; 
+  text-decoration: none;
+}
+.main {
+  display: inline-block;
+  width: 100%;
+}
+
+.contacts {
+  margin-left:  20px;
+  text-align: left;
+}
+.exp {
+  margin-left:  20px;
+}
+.education {
+  margin-left:  20px;
+}
+.skills {
+  margin-left:  20px;
+}
+.lang {
+  margin-left:  20px;
+}
+.self {
+  margin-left:  20px;
+}
