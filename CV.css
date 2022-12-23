@@ -4,7 +4,7 @@
 }
 .name {
   float: left;
-  margin-left:  20px;
+  margin-left:  50px;
   margin-right: 20px;
 }
 .left-line {
@@ -14,7 +14,10 @@
   height: 100vh;
 }
 body {
-  max-width: 800px
+  max-width: 800px;
+  background-image: url(/assets/images/blue.jpeg);
+  background-repeat: no-repeat;
+  background-size: 3% 100%;
 }
 a:link {
   color: #000000; 
@@ -26,21 +29,28 @@ a:link {
 }
 
 .contacts {
-  margin-left:  20px;
+  margin-left:  50px;
   text-align: left;
 }
 .exp {
-  margin-left:  20px;
+  margin-left:  50px;
 }
 .education {
-  margin-left:  20px;
+  margin-left:  50px;
 }
 .skills {
-  margin-left:  20px;
+  margin-left:  50px;
 }
 .lang {
-  margin-left:  20px;
+  margin-left:  50px;
 }
 .self {
-  margin-left:  20px;
+  margin-left:  50px;
 }
+.leftstr, .rightstr {
+  float: left; /* Обтекание справа */ 
+  width: 50%; /* Ширина текстового блока */ 
+ }
+ .rightstr {
+  text-align: right; /* Выравнивание по правому краю */ 
+ }
