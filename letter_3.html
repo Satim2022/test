@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Merry Christmas!</title>
+  <style>
+    body {
+      width: 400px;
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    img {
+      position: relative;
+      border: 0;
+      border-radius: 150px;
+    }
+    button {
+      padding: 10px;
+      margin: 0 auto;
+      display: block;
+      background: rgb(11, 138, 11);
+      color: white;
+      border: 0;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- <button onclick="openRandomImage()">Click me</button>
+<br>
+<img id="image"> -->
+
+  <div>
+    <button onclick="openImage()">
+      Open image
+    </button>
+    <br>
+    <img id="img2" width="400px">
+    <br>
+    <button onclick="closeImage()">
+      Close image
+    </button>
+  </div>
+<script>
+  // function openRandomImage() {
+  //   // Create an array of image URLs
+  //   const images = [
+  //     'https://source.unsplash.com/random/200x200',
+  //     'https://source.unsplash.com/random/201x201',
+  //     'https://source.unsplash.com/random/202x202',
+  //     'https://source.unsplash.com/random/203x203'
+  //   ];
+
+  //   // Choose a random image URL
+  //   const randomImage = images[Math.floor(Math.random() * images.length)];
+
+  //   // Get the image element
+  //   const imageElement = document.getElementById('image');
+
+  //   // Set the src attribute of the image element
+  //   imageElement.src = randomImage;
+  // }
+
+  function openImage () {
+    const imgNew = 'https://source.unsplash.com/random/200x200';
+    const imgId = document.getElementById('img2');
+    imgId.src = imgNew;
+    imgId.style.display = 'block';
+  }
+
+  function closeImage () {
+    const imgId = document.getElementById('img2');
+    imgId.style.display = 'none';
+  }
+</script>
+
+
+</body>
+</html>

@@ -4,12 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Java Script</title>
+  
 </head>
-<body>
-  <p><a href="CV_ua.html">open CV</a></p>
-  <p>Lorem ipsum dolor sit amet consectetur.</p>
-  <p>Lorem ipsum dolor sit amet.</p>
->>>>>>> temp
-</body>
-</html>
+  <body>
+
+    <div class="container">
+      <ul id="res" class="list-group"></ul>
+    </div>
+
+      
+      <script type="text/javascript" src="hello.js">
+        
+      </script>
+      <script>
+        const res = document.getElementById('res')
+        const users = ['Pete', 'John', 'Bill', 'Ashley']
+        let st = ''
+
+        for (let i=0, len = users.length; i < len; i++) {
+            const user = users[i]
+            st += '<li class="list-group-item">'
+            st += user
+            st += '</li>'
+        }
+        res.innerHTML = st
+        console.log(st);
+      </script>
+  </body>
+  </html>
